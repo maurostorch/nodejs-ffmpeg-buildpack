@@ -20,7 +20,7 @@ indent() {
 echo "-----> Install ffmpeg"
 VENDOR_DIR="vendor"
 #DOWNLOAD_URL="http://flect.github.io/heroku-binaries/libs/ffmpeg.tar.gz"
-DOWNLOAD_URL="https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz"
+DOWNLOAD_URL="https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
